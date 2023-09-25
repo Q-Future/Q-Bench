@@ -1,5 +1,3 @@
-
-
 <div align="center">
 
   <h1>Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision</h1>
@@ -11,15 +9,15 @@
       <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>1</sup><sup>*</sup>,
       <a href="https://github.com/zzc-1998" target="_blank">Zicheng Zhang</a><sup>2</sup><sup>*</sup>,
       <a href="https://github.com/ZhangErliCarl/" target="_blank">Erli Zhang</a><sup>1</sup><sup>*</sup>,
-      <a href="chaofengc.github.io" target="_blank">Chaofeng Chen</a><sup>1</sup>,
-      <a href="liaoliang92.github.io" target="_blank">Liang Liao</a><sup>1</sup>,
+      <a href="https://chaofengc.github.io" target="_blank">Chaofeng Chen</a><sup>1</sup>,
+      <a href="https://liaoliang92.github.io" target="_blank">Liang Liao</a><sup>1</sup>,
   </div>
 
 <div>
       <a href="https://github.com/AnnanWangDaniel" target="_blank">Annan Wang</a><sup>1</sup>,
       <a href="https://github.com/lcysyzxdxc" target="_blank">Chunyi Li</a><sup>2</sup>,
       <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>2</sup>,
-      <a href="wenxiusun.com" target="_blank">Wenxiu Sun</a><sup>3</sup>,
+      <a href="https://wenxiusun.com" target="_blank">Wenxiu Sun</a><sup>3</sup>,
       <a href="https://scholar.google.com/citations?user=uT9CtPYAAAAJ&hl=en" target="_blank">Qiong Yan</a><sup>3</sup>,
       <a href="https://www.mmlab-ntu.com/person/wslin/" target="_blank">Weisi Lin</a><sup>1</sup><sup>#</sup>
   </div>
@@ -73,6 +71,8 @@ image = Image.open("image_for_query.jpg")
 input_embeds = embed_image_and_text(image, prompt) #
 generated_texts = tokenizer.batch_decode(model.generate(input_embeds=input_embeds))[0]
 ```
+
+We further provide a demo implementation of IDEFICS, hugginface's open-source MLLM, for most simple question-answering (A1) and description (A2). See [example](example_code_for_idefics/README.md) on how to run the demo and provide a similar one for submission-based evaluation.
 
 **Please email `haoning001@e.ntu.edu.sg` to submit your model if you are *outside* China Mainland.** 
 **Please email `zzc1998@sjtu.edu.cn` to submit your model if you are *inside* China Mainland.** 
@@ -129,6 +129,9 @@ q_pred = (output_logits[[good_idx, poor_idx]] / 100).softmax(0)[0]
 ```
 
 \*Note that you can modify the second line based on your model's default format, _e.g._ for [Shikra](https://github.com/shikras/shikra), the "##Assistant: The quality of the image is" is modified as "##Assistant: The answer is". It is okay if your MLLM will first answer "Ok, I would like to help! The image quality is", just replace this into line 2 of the prompt.
+
+We further provide a full implementation of IDEFICS on IQA. See [example](example_code_for_idefics/README.md) on how to run IQA with this MLLM. Other MLLMs can also be modified in the same way for use in IQA.
+
 
 
 #### Compute SRCC/PLCC with IQA databases

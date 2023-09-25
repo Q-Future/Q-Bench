@@ -64,6 +64,10 @@ input_embeds = embed_image_and_text(image, prompt)
 generated_texts = tokenizer.batch_decode(model.generate(input_embeds=input_embeds))[0]
 ```
 
+我们还提供了IDEFICS的演示实现，这是hugginface的开源MLLM，用于最简单的问答（A1）和描述（A2）。请参见[示例](example_code_for_idefics/README.md)以了解如何运行演示并为基于提交的评估提供类似的示例。
+
+
+
 **如果您在*中国大陆外*，请发送电子邮件至`haoning001@e.ntu.edu.sg`提交您的模型。**
 **如果您在*中国大陆内*，请发送电子邮件至`zzc1998@sjtu.edu.cn`提交您的模型。**
 
@@ -115,6 +119,9 @@ q_pred = (output_logits[[good_idx, poor_idx]] / 100).softmax(0)[0]
 ```
 
 \*注意，您可以根据您的模型的默认输出格式修改第二行，例如对于 [Shikra 模型](https://github.com/shikras/shikra)，"##Assistant: The quality of the image is" 可以修改为 "##Assistant: The answer is"。如果您的MLLM首先回答"好的，我愿意帮忙！图片质量是"，只需将此行替换为prompt的第2行。
+
+我们进一步在IQA上提供了IDEFICS的完整实现。请参见[示例](example_code_for_idefics/README.md)以了解如何使用这个MLLM运行IQA。其他的MLLM亦可以以相同方式被改造用于IQA。
+
 
 #### 用IQA数据库计算SRCC/PLCC
 
