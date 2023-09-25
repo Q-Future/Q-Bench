@@ -1,6 +1,6 @@
 # Q-Bench
 
-[Paper](404.php) | [Website](404.php) | [中文](README_zh.md) 
+[Paper](https://www.researchgate.net/publication/374156853_Q-BENCH_A_BENCHMARK_FOR_GENERAL-PURPOSE_FOUNDATION_MODELS_ON_LOW-LEVEL_VISION) | [Website](404.php) | [中文](README_zh.md) 
 
 *How do multi-modaility LLMs perform on low-level computer vision?*
 
