@@ -1,6 +1,6 @@
 # IQA Databases
 
-### Official Results on IQA Databases
+## Official Results on IQA Databases
 
 Below are the databases used for evaluation in the Q-Bench
 
