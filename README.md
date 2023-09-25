@@ -1,10 +1,49 @@
-# Q-Bench
 
-[Paper](https://www.researchgate.net/publication/374156853_Q-BENCH_A_BENCHMARK_FOR_GENERAL-PURPOSE_FOUNDATION_MODELS_ON_LOW-LEVEL_VISION) | [Website](404.php) | [中文](README_zh.md) 
 
-*How do multi-modaility LLMs perform on low-level computer vision?*
+<div align="center">
 
-![Picture](qbench.png)
+  <h1>Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision</h1>
+
+  *How do multi-modaility LLMs perform on low-level computer vision?*
+
+  
+  <div>
+      <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>1</sup><sup>*</sup>,
+      <a href="https://https://zzc-1998.github.io/" target="_blank">Zicheng Zhang</a><sup>2</sup><sup>*</sup>,
+      <a href="https://github.com/ZhangErliCarl/" target="_blank">Erli Zhang</a><sup>1</sup><sup>*</sup>,
+      <a href="chaofengc.github.io" target="_blank">Chaofeng Chen</a><sup>1</sup>,
+      <a href="liaoliang92.github.io" target="_blank">Liang Liao</a><sup>1</sup>,
+  </div>
+
+<div>
+      <a href="https://github.com/AnnanWangDaniel" target="_blank">Annan Wang</a><sup>1</sup>,
+      <a href="https://github.com/lcysyzxdxc" target="_blank">Chunyi Li</a><sup>2</sup>,
+      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>2</sup>,
+      <a href="wenxiusun.com" target="_blank">Wenxiu Sun</a><sup>3</sup>,
+      <a href="https://scholar.google.com/citations?user=uT9CtPYAAAAJ&hl=en" target="_blank">Qiong Yan</a><sup>3</sup>,
+      <a href="https://www.mmlab-ntu.com/person/wslin/" target="_blank">Weisi Lin</a><sup>1</sup><sup>#</sup>
+  </div>
+  <div>
+  <sup>1</sup>Nanyang Technological University, <sup>2</sup>Shanghai Jiaotong University, <sup>3</sup>Sensetime Research
+       </div>   
+<div>
+<sup>*</sup>Equal contribution. <sup>#</sup>Corresponding author. 
+   </div>
+
+:page_with_curl:[**Paper**](https://www.researchgate.net/publication/374156853_Q-BENCH_A_BENCHMARK_FOR_GENERAL-PURPOSE_FOUNDATION_MODELS_ON_LOW-LEVEL_VISION) | :globe_with_meridians:[Project Page](404.php) | [中文](README_zh.md) 
+
+<!-- | ![visitors](https://visitor-badge.laobi.icu/badge?page_id=VQAssessment/Q-Bench) -->
+
+  </br>
+  
+  <div style="width: 80%; text-align: center; margin:auto;">
+      <img style="width:80%" src="qbench.png">
+  </div>
+
+</div>
+
+
+
 
 The proposed Q-Bench includes three realms for low-level vision: perception (A1), descrpition (A2), and assessment (A3). 
 
