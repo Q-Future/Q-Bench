@@ -28,7 +28,7 @@
 <sup>*</sup>Equal contribution. <sup>#</sup>Corresponding author. 
    </div>
 
-:page_with_curl:[**Paper**](https://www.researchgate.net/publication/374156853_Q-BENCH_A_BENCHMARK_FOR_GENERAL-PURPOSE_FOUNDATION_MODELS_ON_LOW-LEVEL_VISION) | :globe_with_meridians:[Project Page](vqassessment.github.io/Q-Bench) | [中文](README_zh.md) 
+:page_with_curl:[**Paper**](https://www.researchgate.net/publication/374156853_Q-BENCH_A_BENCHMARK_FOR_GENERAL-PURPOSE_FOUNDATION_MODELS_ON_LOW-LEVEL_VISION) | :globe_with_meridians:[Project Page](https://vqassessment.github.io/Q-Bench) | [中文](README_zh.md) 
 
 <!-- | ![visitors](https://visitor-badge.laobi.icu/badge?page_id=VQAssessment/Q-Bench) -->
 
