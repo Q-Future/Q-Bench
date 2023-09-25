@@ -18,7 +18,7 @@ For submitting to Q-Bench (A1/A2), you can prepare a huggingface/GitHub repo (wi
 
 - Generate text outputs based on multi-modality inputs (`image + text`).
 
-Specifically, it should has two important methods: `embed_image_and_text` (to allow multi-modality inputs), and 'generate' (for dialog).
+Specifically, it should has two important methods: `embed_image_and_text` (to allow multi-modality inputs), and 'generate` (for dialog).
 
 We recommend to wrap up the function call to your MLLM in the following format:
 
@@ -70,7 +70,7 @@ _An exciting ability that MLLMs are able to predict quantative scores for IQA!_
 
 #### Predict a Score
 
-Similarly as above, as long as a model (based on causal language models) has the following two methods: `embed_image_and_text` (to allow multi-modality inputs), and `forward' (for computing logits), the Image Quality Assessment (IQA) with the model can be achieved as follows:
+Similarly as above, as long as a model (based on causal language models) has the following two methods: `embed_image_and_text` (to allow multi-modality inputs), and `forward` (for computing logits), the Image Quality Assessment (IQA) with the model can be achieved as follows:
 
 ```python
 from PIL import Image
