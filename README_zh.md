@@ -29,7 +29,7 @@
    </div>
 
 
-[论文](https://www.researchgate.net/publication/374156853_Q-BENCH_A_BENCHMARK_FOR_GENERAL-PURPOSE_FOUNDATION_MODELS_ON_LOW-LEVEL_VISION) | [网站](404.php) | [English](README.md)
+[论文](https://www.researchgate.net/publication/374156853_Q-BENCH_A_BENCHMARK_FOR_GENERAL-PURPOSE_FOUNDATION_MODELS_ON_LOW-LEVEL_VISION) | [网站](https://vqassessment.github.io/Q-Bench) | [English](README.md)
 
 </div> 
 
