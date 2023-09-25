@@ -18,7 +18,7 @@ For submitting to Q-Bench (A1/A2), you can prepare a huggingface/GitHub repo (wi
 
 - Generate text outputs based on multi-modality inputs (`image + text`).
 
-Specifically, it should has two important methods: `embed_image_and_text` (to allow multi-modality inputs), and `generate' (for dialog).
+Specifically, it should has two important methods: `embed_image_and_text` (to allow multi-modality inputs), and 'generate' (for dialog).
 
 We recommend to wrap up the function call to your MLLM in the following format:
 
