@@ -1,12 +1,12 @@
 # Q-Bench
 
-[中文](readme_zh.md) 
+[Paper](404.php) | [Website](404.php) | [中文](readme_zh.md) 
 
 *How do multi-modaility LLMs perform on low-level computer vision?*
 
 ![Picture](qbench.png)
 
-The proposed Q-Bench includes three realms: perception (A1), descrpition (A2), and assessment (A3). 
+The proposed Q-Bench includes three realms for low-level vision: perception (A1), descrpition (A2), and assessment (A3). 
 
 - For perception (A1) /descrpition (A2), we collect two benchmark datasets LLVisionQA/LLDescribe.
 - We are open to **submission-based evaluation** for the two tasks. The details for submission is as follows.
@@ -35,7 +35,9 @@ input_embeds = embed_image_and_text(image, prompt) #
 generated_texts = tokenizer.batch_decode(model.generate(input_embeds=input_embeds))[0]
 ```
 
-**Please email `haoning001@e.ntu.edu.sg` to submit your model.** 
+**Please email `haoning001@e.ntu.edu.sg` to submit your model if you are *outside* China Mainland.** 
+**Please email `zzc1998@sjtu.edu.cn` to submit your model if you are *inside* China Mainland.** 
+
 
 ## A1: Perception
 
@@ -43,6 +45,7 @@ A snapshot for LLVisionQA benchmark dataset for MLLM low-level perception abilit
 
 ![Picture](llvisionqa.png)
 
+We measure the answer accuracy of MLLMs (provided with the question and all choices) as the metric here.
 
 ## A2: Description
 
@@ -50,15 +53,22 @@ A snapshot for LLDescribe benchmark dataset for MLLM low-level description abili
 
 ![Picture](lldescribe.png)
 
+We measure the _completeness_, _precision_, and _relevance_ of MLLM descriptions as the metric here.
+
 
 ## A3: Assessment
 
+_An exciting ability that MLLMs are able to predict quantative scores for IQA!_
 
 ### Methodology
 
-![Picture](llm_iqa.png)
+![Picture](llmiqa.png)
+
 
 ### Abstract Code
+
+
+#### Predict a Score
 
 Similarly as above, as long as a model (based on causal language models) has the following two methods: `embed_image_and_text` (to allow multi-modality inputs), and `forward' (for computing logits), the Image Quality Assessment (IQA) with the model can be achieved as follows:
 
@@ -82,7 +92,16 @@ q_pred = (output_logits[[good_idx, poor_idx]] / 100).softmax(0)[0]
 \*Note that you can modify the second line based on your model's default format, _e.g._ for [Shikra](https://github.com/shikras/shikra), the "##Assistant: The quality of the image is" is modified as "##Assistant: The answer is". It is okay if your MLLM will first answer "Ok, I would like to help! The image quality is", just replace this into line 2 of the prompt.
 
 
-### Results on IQA Databases
+#### Compute SRCC/PLCC with IQA databases
+
+We have prepared JSON format human opinion scores (MOS) for the seven IQA databases as evaluated in our benchmark. 
+
+Please see [IQA_databases](a3_iqa_databases/) for details.
+
+
+### Official Results on IQA Databases
+
+Please feel free to use these results as tested in the Q-Bench in your works.
 
 | **Dataset Type / Model / Dataset** | **In-the-wild: KONiQ-10k** | **In-the-wild: SPAQ** | **In-the-wild: LIVE-FB** | **In-the-wild: LIVE-itw** | **Generated: CGIQA-6K** | **Generated: AGIQA-3K** | **Artificial: KADID-10K** |
 |-----------------------------------|----------------------------|-----------------------|-------------------------|--------------------------|-------------------------|------------------------|--------------------------|
