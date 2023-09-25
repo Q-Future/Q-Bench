@@ -7,7 +7,7 @@
   
   <div>
       <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>1</sup><sup>*</sup>,
-      <a href="https://https://zzc-1998.github.io/" target="_blank">Zicheng Zhang</a><sup>2</sup><sup>*</sup>,
+      <a href="https://github.com/zzc-1998" target="_blank">Zicheng Zhang</a><sup>2</sup><sup>*</sup>,
       <a href="https://github.com/ZhangErliCarl/" target="_blank">Erli Zhang</a><sup>1</sup><sup>*</sup>,
       <a href="chaofengc.github.io" target="_blank">Chaofeng Chen</a><sup>1</sup>,
       <a href="liaoliang92.github.io" target="_blank">Liang Liao</a><sup>1</sup>,
