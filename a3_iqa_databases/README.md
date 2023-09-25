@@ -1,7 +1,5 @@
 # IQA Databases
 
-## Official Results on IQA Databases
-
 Below are the databases used for evaluation in the Q-Bench
 
 | **Database**           | **Json file** | **Download link**                                                                  |
@@ -10,7 +8,7 @@ Below are the databases used for evaluation in the Q-Bench
 | In-the-wild: SPAQ      | spag.json     | [SPAQ](https://github.com/h4nwei/SPAQ#database)                                    |
 | In-the-wild: LIVE-FB   | flive.json    | [LIVE-FB](https://niu-haoran.github.io/FLIVE_Database/)                            |
 | In-the-wild: LIVE-itw  | livec.json    | [LIVE-itw](https://live.ece.utexas.edu/research/ChallengeDB/index.html)            |
-| Generated: CGIQA-6K    | cgi.json      | CGIQA-6K                                                                           |
+| Generated: CGIQA-6K    | cgi.json      | [CGIQA-6K](https://github.com/zzc-1998/CGIQA6K)                                    |
 | Generated: AGIQA-3K    | agi.json      | [AGIQA-3K](https://github.com/lcysyzxdxc/AGIQA-3k-Database#2-database-description) |
 | Artificial: KADID-10K  | kadid.json    | [KADID-10K](http://database.mmsp-kn.de/kadid-10k-database.html)                    |
 
