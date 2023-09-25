@@ -1,6 +1,6 @@
 # Q-Bench
 
-[Paper](404.php) | [Website](404.php) | [中文](readme_zh.md) 
+[Paper](404.php) | [Website](404.php) | [中文](README_zh.md) 
 
 *How do multi-modaility LLMs perform on low-level computer vision?*
 
