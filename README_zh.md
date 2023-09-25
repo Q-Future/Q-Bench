@@ -1,8 +1,37 @@
-# Q-Bench
+<div align="center">
 
-[论文](404.php) | [网站](404.php) | [English](README.md)
+  <h1>Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision</h1>
 
-*多模态LLMs在低层次计算机视觉上的表现如何？*
+*多模态大模型在低层次计算机视觉上的表现如何？*
+
+  
+  <div>
+      <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>1</sup><sup>*</sup>,
+      <a href="https://https://zzc-1998.github.io/" target="_blank">Zicheng Zhang</a><sup>2</sup><sup>*</sup>,
+      <a href="https://github.com/ZhangErliCarl/" target="_blank">Erli Zhang</a><sup>1</sup><sup>*</sup>,
+      <a href="chaofengc.github.io" target="_blank">Chaofeng Chen</a><sup>1</sup>,
+      <a href="liaoliang92.github.io" target="_blank">Liang Liao</a><sup>1</sup>,
+  </div>
+
+<div>
+      <a href="https://github.com/AnnanWangDaniel" target="_blank">Annan Wang</a><sup>1</sup>,
+      <a href="https://github.com/lcysyzxdxc" target="_blank">Chunyi Li</a><sup>2</sup>,
+      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>2</sup>,
+      <a href="wenxiusun.com" target="_blank">Wenxiu Sun</a><sup>3</sup>,
+      <a href="https://scholar.google.com/citations?user=uT9CtPYAAAAJ&hl=en" target="_blank">Qiong Yan</a><sup>3</sup>,
+      <a href="https://www.mmlab-ntu.com/person/wslin/" target="_blank">Weisi Lin</a><sup>1</sup><sup>#</sup>
+  </div>
+  <div>
+  <sup>1</sup>Nanyang Technological University, <sup>2</sup>Shanghai Jiaotong University, <sup>3</sup>Sensetime Research
+       </div>   
+<div>
+<sup>*</sup>Equal contribution. <sup>#</sup>Corresponding author. 
+   </div>
+
+
+[论文](https://www.researchgate.net/publication/374156853_Q-BENCH_A_BENCHMARK_FOR_GENERAL-PURPOSE_FOUNDATION_MODELS_ON_LOW-LEVEL_VISION) | [网站](404.php) | [English](README.md)
+
+</div> 
 
 ![图片](qbench.png)
 
