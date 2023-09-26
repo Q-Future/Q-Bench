@@ -29,11 +29,18 @@
    </div>
 
 
-[**论文**](https://arxiv.org/abs/2309.14181) | [**网站**](https://vqassessment.github.io/Q-Bench)
+<a href="https://arxiv.org/abs/2309.14181"><strong>论文</strong></a> | 
+<a href="https://vqassessment.github.io/Q-Bench"><strong>网站</strong></a> | 
+<a href="https://github.com/VQAssessment/Q-Bench"><strong>Github</strong></a>
 
-</div> 
+    
+      
+  <div style="width: 80%; text-align: center; margin:auto;">
+      <img style="width:80%" src="../qbench.png">
+  </div>
 
-![图片](../qbench.png)
+</div>
+
 
 Q-Bench是一个全新的基准，专门为测试多模态语言模型（MLLMs）在低层次计算机视觉任务中的性能而设计。此基准集中于三个主要领域：感知（A1），描述（A2）和评估（A3）。这些领域分别对应于多模态语言模型在理解和描述视觉信息方面的不同能力。
 

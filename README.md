@@ -1,3 +1,5 @@
+# 中文
+
 <div align="center">
 
   <h1>Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision</h1>
@@ -30,11 +32,9 @@
 
 <a href="https://arxiv.org/abs/2309.14181"><strong>Paper</strong></a> | 
 <a href="https://vqassessment.github.io/Q-Bench"><strong>Project Page</strong></a> | 
+<a href="https://github.com/VQAssessment/Q-Bench"><strong>Github</strong></a> |
 <a href="https://vqassessment.github.io/Q-Bench/zh"><strong>中文</strong></a>
-    
-<br>
-<!-- | ![visitors](https://visitor-badge.laobi.icu/badge?page_id=VQAssessment/Q-Bench) -->
-</br>
+
   
   <div style="width: 80%; text-align: center; margin:auto;">
       <img style="width:80%" src="qbench.png">
