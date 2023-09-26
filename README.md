@@ -28,7 +28,9 @@
 <sup>*</sup>Equal contribution. <sup>#</sup>Corresponding author. 
    </div>
 
-:page_with_curl:[**Paper**](https://arxiv.org/abs/2309.14181) | :globe_with_meridians:[**Project Page**](https://vqassessment.github.io/Q-Bench) | [**中文**](README_zh.md) 
+<a href="https://arxiv.org/abs/2309.14181"><strong>Paper</strong></a> | 
+<a href="https://vqassessment.github.io/Q-Bench"><strong>Project Page</strong></a> | 
+<a href="https://github.com/VQAssessment/Q-Bench/blob/master/README_zh.html">中文</a><br>
 
 <!-- | ![visitors](https://visitor-badge.laobi.icu/badge?page_id=VQAssessment/Q-Bench) -->
 
