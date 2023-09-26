@@ -165,7 +165,7 @@ Q-Bench由新加坡南洋理工大学和中国上海交通大学的研究者们�
 
 - Haoning Wu, `haoning001@e.ntu.edu.sg`, @teowu 
 - Zicheng Zhang, `zzc1998@sjtu.edu.cn`, @zzc-1998
-- Erli Zhang, `erli005@e.ntu.edu.sg`, @ZhangErliCarl
+- Erli Zhang, `ezhang005@e.ntu.edu.sg`, @ZhangErliCarl
 
 ## Citation
 

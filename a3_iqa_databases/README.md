@@ -18,7 +18,7 @@ Please contact any of the first authors of this paper for queries.
 
 - Haoning Wu, `haoning001@e.ntu.edu.sg`
 - Zicheng Zhang, `zzc1998@sjtu.edu.cn`
-- Erli Zhang, `erli005@e.ntu.edu.sg`
+- Erli Zhang, `ezhang005@e.ntu.edu.sg`
 
 ## Citation
 
