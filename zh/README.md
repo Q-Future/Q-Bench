@@ -29,11 +29,11 @@
    </div>
 
 
-[**论文**](https://arxiv.org/abs/2309.14181) | [**网站**](https://vqassessment.github.io/Q-Bench) | [**English**](README.md)
+[**论文**](https://arxiv.org/abs/2309.14181) | [**网站**](https://vqassessment.github.io/Q-Bench)
 
 </div> 
 
-![图片](qbench.png)
+![图片](../qbench.png)
 
 Q-Bench是一个全新的基准，专门为测试多模态语言模型（MLLMs）在低层次计算机视觉任务中的性能而设计。此基准集中于三个主要领域：感知（A1），描述（A2）和评估（A3）。这些领域分别对应于多模态语言模型在理解和描述视觉信息方面的不同能力。
 
@@ -64,7 +64,7 @@ input_embeds = embed_image_and_text(image, prompt)
 generated_texts = tokenizer.batch_decode(model.generate(input_embeds=input_embeds))[0]
 ```
 
-我们还提供了IDEFICS的演示实现，这是hugginface的开源MLLM，用于最简单的问答（A1）和描述（A2）。请参见[示例](example_code_for_idefics/README.md)以了解如何运行演示并为基于提交的评估提供类似的示例。
+我们还提供了IDEFICS的演示实现，这是hugginface的开源MLLM，用于最简单的问答（A1）和描述（A2）。请参见[示例](../example_code_for_idefics/README.md)以了解如何运行演示并为基于提交的评估提供类似的示例。
 
 
 
@@ -75,7 +75,7 @@ generated_texts = tokenizer.batch_decode(model.generate(input_embeds=input_embed
 
 下面是MLLM低级感知能力的LLVisionQA基准数据集的快照。
 
-![图片](llvisionqa.png)
+![图片](../llvisionqa.png)
 
 我们将MLLMs的答案准确性（提供问题和所有选择）作为这里的度量标准。
 
@@ -83,7 +83,7 @@ generated_texts = tokenizer.batch_decode(model.generate(input_embeds=input_embed
 
 下面是MLLM低级描述能力的LLDescribe基准数据集的快照。
 
-![图片](lldescribe.png)
+![图片](../lldescribe.png)
 
 我们将MLLM描述的*完整性*，*准确性*，和*相关性*作为这里的度量标准。
 
@@ -93,7 +93,7 @@ _MLLMs具有预测IQA定量分数的令人兴奋的能力！_
 
 ### 方法
 
-![图片](llmiqa.png)
+![图片](../llmiqa.png)
 
 ### 抽象代码
 
@@ -120,14 +120,14 @@ q_pred = (output_logits[[good_idx, poor_idx]] / 100).softmax(0)[0]
 
 \*注意，您可以根据您的模型的默认输出格式修改第二行，例如对于 [Shikra 模型](https://github.com/shikras/shikra)，"##Assistant: The quality of the image is" 可以修改为 "##Assistant: The answer is"。如果您的MLLM首先回答"好的，我愿意帮忙！图片质量是"，只需将此行替换为prompt的第2行。
 
-我们进一步在IQA上提供了IDEFICS的完整实现。请参见[示例](example_code_for_idefics/README.md)以了解如何使用这个MLLM运行IQA。其他的MLLM亦可以以相同方式被改造用于IQA。
+我们进一步在IQA上提供了IDEFICS的完整实现。请参见[示例](../example_code_for_idefics/README.md)以了解如何使用这个MLLM运行IQA。其他的MLLM亦可以以相同方式被改造用于IQA。
 
 
 #### 用IQA数据库计算SRCC/PLCC
 
 我们已为我们的基准中评估的七个IQA数据库准备了JSON格式的质量分数（MOS）。
 
-请参阅[IQA_databases](a3_iqa_databases/)以获取详细信息。
+请参阅[IQA_databases](../a3_iqa_databases/)以获取详细信息。
 
 ### IQA数据库官方结果
 
