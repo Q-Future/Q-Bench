@@ -40,9 +40,9 @@ _How do multi-modaility LLMs perform on low-level computer vision?_
 
 </div>
 
-The proposed Q-Bench includes three realms for low-level vision: perception (A1), descrpition (A2), and assessment (A3).
+The proposed Q-Bench includes three realms for low-level vision: perception (A1), description (A2), and assessment (A3).
 
-- For perception (A1) /descrpition (A2), we collect two benchmark datasets LLVisionQA/LLDescribe.
+- For perception (A1) /description (A2), we collect two benchmark datasets LLVisionQA/LLDescribe.
 - We are open to **submission-based evaluation** for the two tasks. The details for submission is as follows.
 - For assessment (A3), as we use **public datasets**, we provide an abstract evaluation code for arbitrary MLLMs for anyone to test.
 
