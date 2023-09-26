@@ -1,5 +1,3 @@
-# 中文
-
 <div align="center">
 
   <h1>Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision</h1>
