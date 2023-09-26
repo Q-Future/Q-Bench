@@ -9,15 +9,15 @@
       <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>1</sup><sup>*</sup>,
       <a href="https://github.com/zzc-1998" target="_blank">Zicheng Zhang</a><sup>2</sup><sup>*</sup>,
       <a href="https://github.com/ZhangErliCarl/" target="_blank">Erli Zhang</a><sup>1</sup><sup>*</sup>,
-      <a href="chaofengc.github.io" target="_blank">Chaofeng Chen</a><sup>1</sup>,
-      <a href="liaoliang92.github.io" target="_blank">Liang Liao</a><sup>1</sup>,
+      <a href="https://chaofengc.github.io" target="_blank">Chaofeng Chen</a><sup>1</sup>,
+      <a href="https://liaoliang92.github.io" target="_blank">Liang Liao</a><sup>1</sup>,
   </div>
 
 <div>
       <a href="https://github.com/AnnanWangDaniel" target="_blank">Annan Wang</a><sup>1</sup>,
       <a href="https://github.com/lcysyzxdxc" target="_blank">Chunyi Li</a><sup>2</sup>,
       <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>2</sup>,
-      <a href="wenxiusun.com" target="_blank">Wenxiu Sun</a><sup>3</sup>,
+      <a href="https://wenxiusun.com" target="_blank">Wenxiu Sun</a><sup>3</sup>,
       <a href="https://scholar.google.com/citations?user=uT9CtPYAAAAJ&hl=en" target="_blank">Qiong Yan</a><sup>3</sup>,
       <a href="https://www.mmlab-ntu.com/person/wslin/" target="_blank">Weisi Lin</a><sup>1</sup><sup>#</sup>
   </div>
@@ -29,7 +29,7 @@
    </div>
 
 
-[论文](https://www.researchgate.net/publication/374156853_Q-BENCH_A_BENCHMARK_FOR_GENERAL-PURPOSE_FOUNDATION_MODELS_ON_LOW-LEVEL_VISION) | [网站](https://vqassessment.github.io/Q-Bench) | [English](README.md)
+[**论文**](https://arxiv.org/abs/2309.14181) | [**网站**](https://vqassessment.github.io/Q-Bench) | [**English**](README.md)
 
 </div> 
 
@@ -154,9 +154,9 @@ q_pred = (output_logits[[good_idx, poor_idx]] / 100).softmax(0)[0]
 
 Q-Bench由新加坡南洋理工大学和中国上海交通大学的研究者们开发。如有任何疑问，您可联系主要作者以获取相关信息：
 
-- Haoning Wu, `haoning001@e.ntu.edu.sg` 
-- Zicheng Zhang, `zzc1998@sjtu.edu.cn`
-- Erli Zhang, `erli005@e.ntu.edu.sg`
+- Haoning Wu, `haoning001@e.ntu.edu.sg`, @teowu 
+- Zicheng Zhang, `zzc1998@sjtu.edu.cn`, @zzc-1998
+- Erli Zhang, `erli005@e.ntu.edu.sg`, @ZhangErliCarl
 
 ## Citation
 

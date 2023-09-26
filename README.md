@@ -166,9 +166,9 @@ Please feel free to use these results as tested in the Q-Bench in your works.
 
 Please contact any of the first authors of this paper for queries.
 
-- Haoning Wu, `haoning001@e.ntu.edu.sg` 
-- Zicheng Zhang, `zzc1998@sjtu.edu.cn`
-- Erli Zhang, `erli005@e.ntu.edu.sg`
+- Haoning Wu, `haoning001@e.ntu.edu.sg`, @teowu 
+- Zicheng Zhang, `zzc1998@sjtu.edu.cn`, @zzc-1998
+- Erli Zhang, `erli005@e.ntu.edu.sg`, @ZhangErliCarl
 
 ## Citation
 
