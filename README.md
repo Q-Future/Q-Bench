@@ -69,7 +69,7 @@ input_embeds = embed_image_and_text(image, prompt) #
 generated_texts = tokenizer.batch_decode(model.generate(input_embeds=input_embeds))[0]
 ```
 
-We further provide a demo implementation of IDEFICS, hugginface's open-source MLLM, for most simple question-answering (A1) and description (A2). See [example](example_code_for_idefics/README.md) on how to run the demo and provide a similar one for submission-based evaluation.
+We further provide a demo implementation of IDEFICS, huggingface's open-source MLLM, for most simple question-answering (A1) and description (A2). See [example](example_code_for_idefics/README.md) on how to run the demo and provide a similar one for submission-based evaluation.
 
 **Please email `haoning001@e.ntu.edu.sg` to submit your model if you are _outside_ China Mainland.**
 **Please email `zzc1998@sjtu.edu.cn` to submit your model if you are _inside_ China Mainland.**
@@ -92,7 +92,7 @@ We measure the _completeness_, _precision_, and _relevance_ of MLLM descriptions
 
 ## A3: Assessment
 
-_An exciting ability that MLLMs are able to predict quantative scores for IQA!_
+_An exciting ability that MLLMs are able to predict quantitative scores for IQA!_
 
 ### Methodology
 
