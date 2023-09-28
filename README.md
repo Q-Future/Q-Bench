@@ -15,9 +15,9 @@ _How do multi-modaility LLMs perform on low-level computer vision?_
 <div>
       <a href="https://github.com/AnnanWangDaniel" target="_blank">Annan Wang</a><sup>1</sup>,
       <a href="https://github.com/lcysyzxdxc" target="_blank">Chunyi Li</a><sup>2</sup>,
-      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>2</sup>,
       <a href="https://wenxiusun.com" target="_blank">Wenxiu Sun</a><sup>3</sup>,
       <a href="https://scholar.google.com/citations?user=uT9CtPYAAAAJ&hl=en" target="_blank">Qiong Yan</a><sup>3</sup>,
+      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>2</sup>,
       <a href="https://www.mmlab-ntu.com/person/wslin/" target="_blank">Weisi Lin</a><sup>1</sup><sup>#</sup>
   </div>
   <div>
@@ -47,6 +47,8 @@ The proposed Q-Bench includes three realms for low-level vision: perception (A1)
 - For assessment (A3), as we use **public datasets**, we provide an abstract evaluation code for arbitrary MLLMs for anyone to test.
 
 ## Submission Guideline for A1/A2
+
+_New: We will release the images for A1/A2 and the questions before mid October. After that, it is also possible to directly submit a JSON file with answers from your MLLM._
 
 For submitting to Q-Bench (A1/A2), you can prepare a huggingface/GitHub repo (with some README for us to run it) of your MLLM with an implementation of the following single ability:
 
