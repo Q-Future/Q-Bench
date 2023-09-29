@@ -1,4 +1,8 @@
 <div align="center">
+    
+      <div style="width: 60%; text-align: center; margin:auto;">
+      <img style="width: 60%" src="logo.png">
+  </div>
 
   <h1>Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision</h1>
 
