@@ -1,12 +1,14 @@
 <div align="center">
     
-      <div style="width: 60%; text-align: center; margin:auto;">
-      <img style="width: 60%" src="logo.png">
+        <div style="width: 60%; text-align: center; margin:auto;">
+      <img style="width:60%" src="logo.png">
   </div>
+    
 
   <h1>Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision</h1>
 
 _How do multi-modaility LLMs perform on low-level computer vision?_
+
 
   <div>
       <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>1</sup><sup>*</sup>,
@@ -41,6 +43,8 @@ _How do multi-modaility LLMs perform on low-level computer vision?_
   <div style="width: 80%; text-align: center; margin:auto;">
       <img style="width:80%" src="qbench.png">
   </div>
+    
+
 
 </div>
 
