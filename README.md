@@ -71,6 +71,12 @@ input_embeds = embed_image_and_text(image, prompt) #
 generated_texts = tokenizer.batch_decode(model.generate(input_embeds=input_embeds))[0]
 ```
 
+*Optional: You will also need to implement the generative loss for your model if you would like to test with close-set inference (PPL-based) for perception task (A1), as follows:*
+
+```python
+loss = model(input_embeds=input_embeds, labels=input_ids).loss.item()
+```
+
 We further provide a demo implementation of IDEFICS, huggingface's open-source MLLM, for most simple question-answering (A1) and description (A2). See [example](example_code_for_idefics/README.md) on how to run the demo and provide a similar one for submission-based evaluation.
 
 **Please email `haoning001@e.ntu.edu.sg` to submit your model if you are _outside_ China Mainland.**
@@ -100,9 +106,9 @@ _An exciting ability that MLLMs are able to predict quantitative scores for IQA!
 
 ![Picture](llmiqa.png)
 
-### Abstract Code
+### Predict a Score
 
-#### Predict a Score
+#### Pseudo Code
 
 Similarly as above, as long as a model (based on causal language models) has the following two methods: `embed_image_and_text` (to allow multi-modality inputs), and `forward` (for computing logits), the Image Quality Assessment (IQA) with the model can be achieved as follows:
 
@@ -124,6 +130,8 @@ q_pred = (output_logits[[good_idx, poor_idx]] / 100).softmax(0)[0]
 ```
 
 \*Note that you can modify the second line based on your model's default format, _e.g._ for [Shikra](https://github.com/shikras/shikra), the "##Assistant: The quality of the image is" is modified as "##Assistant: The answer is". It is okay if your MLLM will first answer "Ok, I would like to help! The image quality is", just replace this into line 2 of the prompt.
+
+#### Example Real Code for IDEFICS
 
 We further provide a full implementation of IDEFICS on IQA. See [example](example_code_for_idefics/README.md) on how to run IQA with this MLLM. Other MLLMs can also be modified in the same way for use in IQA.
 

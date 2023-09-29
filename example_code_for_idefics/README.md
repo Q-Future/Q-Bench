@@ -16,6 +16,9 @@ and then run `python example_code_for_idefics/a1_perception_demo.py` or `python 
 As our evaluation is submission-based, it will be very nice of incoming models to submit with similar simple files as a demo for us to conduct the evaluation. Make sure that your demo can successfully answer the visual question related to `2415943374.jpg`, and describe the low-level information of `midjourney_lowstep_036.jpg` before your submission.
 
 
+**New:** In addition to the normal multi-choice questions (MCQ) for evaluation, we also add a *close-set* inference (PPL-based) script for the **perception (A1)** task, and we would like to allow models to submit both results/scripts. For close-set inference, please refer to [our demo scripts](a1_perception_demo_perplexity.py).
+
+
 ### Evaluating Assessment (A3) ability
 
 
