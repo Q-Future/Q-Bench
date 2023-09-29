@@ -1,9 +1,6 @@
 <div align="center">
     
-        <div style="width: 60%; text-align: center; margin:auto;">
-      <img style="width:60%" src="logo.png">
-  </div>
-    
+
 
   <h1>Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision</h1>
 
@@ -39,6 +36,12 @@ _How do multi-modaility LLMs perform on low-level computer vision?_
 <a href="https://vqassessment.github.io/Q-Bench/zh"><strong>中文</strong></a>
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvqassessment%2FQ-Bench&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+    
+    
+  <div style="width: 80%; text-align: center; margin:auto;">
+      <img style="width:80%" src="logo.png">
+  </div>
+    
 
   <div style="width: 80%; text-align: center; margin:auto;">
       <img style="width:80%" src="qbench.png">
