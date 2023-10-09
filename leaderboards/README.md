@@ -1,10 +1,14 @@
 # Leaderboards
 
 <div align="center">
-
-*Join the competition for low-level vision now!*
-
-*Timeliness*: Updated on 10th Oct.
+    
+<div>
+_Join the competition for low-level vision now!_           
+</div>
+    
+<div>
+_Timeliness_: Updated on 10th Oct.   
+</div>
     
 </div>
 
