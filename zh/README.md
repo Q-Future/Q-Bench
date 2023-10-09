@@ -17,9 +17,9 @@ _多模态大模型在低层次计算机视觉上的表现如何？_
 <div>
       <a href="https://github.com/AnnanWangDaniel" target="_blank">Annan Wang</a><sup>1</sup>,
       <a href="https://github.com/lcysyzxdxc" target="_blank">Chunyi Li</a><sup>2</sup>,
-      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>2</sup>,
       <a href="https://wenxiusun.com" target="_blank">Wenxiu Sun</a><sup>3</sup>,
       <a href="https://scholar.google.com/citations?user=uT9CtPYAAAAJ&hl=en" target="_blank">Qiong Yan</a><sup>3</sup>,
+      <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>2</sup>,
       <a href="https://www.mmlab-ntu.com/person/wslin/" target="_blank">Weisi Lin</a><sup>1</sup><sup>#</sup>
   </div>
   <div>
@@ -31,6 +31,8 @@ _多模态大模型在低层次计算机视觉上的表现如何？_
 
 <a href="https://arxiv.org/abs/2309.14181"><strong>论文</strong></a> |
 <a href="https://vqassessment.github.io/Q-Bench"><strong>网站</strong></a> |
+     <a href="https://huggingface.co/datasets/nanyangtu/LLVisionQA-QBench"><strong>数据集 (LLVisionQA)</strong></a> |
+ <a href="https://huggingface.co/datasets/nanyangtu/LLVisionQA-QBench"><strong>数据集 (LLDescribe)</strong></a> |
 <a href="https://github.com/VQAssessment/Q-Bench"><strong>Github</strong></a>
 
   <div style="width: 80%; text-align: center; margin:auto;">
@@ -47,7 +49,15 @@ Q-Bench 是一个全新的基准，专门为测试多模态语言模型（MLLMs�
 
 ## A1/A2 提交指南
 
-要提交到 Q-Bench (A1/A2)，您可以准备一个 huggingface/GitHub 仓库（带有一些 README，以便我们运行）来实现您的 MLLM，并实现以下功能：
+## 选择1：提交结果
+
+**重要！我们已经发布这两个任务的数据集，方便大家自行测试后直接提交结果。请参考[数据文档](../data_release)以及[示例代码](../example_code_for_idefics)以顺利测试这些数据。**
+
+**请发送电子邮件至`haoning001@e.ntu.edu.sg`提交您的结果，以json格式存储。**
+
+## 选择2：提交模型
+
+另外，您也可以提交模型。要提交到 Q-Bench (A1/A2)，您可以准备一个 huggingface/GitHub 仓库（带有一些 README，以便我们运行）来实现您的 MLLM，并实现以下功能：
 
 - 基于多模态输入（`图像 + 文本`）生成文本输出。
 
