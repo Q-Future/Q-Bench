@@ -135,7 +135,7 @@ The datasets can be found [here](../a3_iqa_databases/).
 |otter_v1 | 0.436/0.441 | 0.406/0.406 | 0.143/0.142 | -0.008/0.018 | 0.254/0.264 | 0.475/0.481 | 0.557/0.577| 0.323/0.333|
 |shikra | 0.327/0.337 | 0.314/0.307 | 0.222/0.227 | 0.322/0.336 | 0.198/0.201 | 0.640/0.661 | 0.324/0.332| 0.335/0.343|
 
-Overall, `mplug_owl` has the best IQA performance among the models. (Oct 10).
+Overall, `llava-v1.5` has the best IQA performance among the models (*it tops on 4 in 7 datasets*). (11st Oct).
 
 Moreover, we release the results of these models (as well as the post-evaluation code) in [IQA_results](iqa_results/) for reference.
 
