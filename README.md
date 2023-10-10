@@ -35,7 +35,7 @@ _How do multi-modaility LLMs perform on low-level computer vision?_
 <a href="https://vqassessment.github.io/Q-Bench"><strong>Project Page</strong></a> |
 <a href="https://github.com/VQAssessment/Q-Bench"><strong>Github</strong></a> |
  <a href="https://huggingface.co/datasets/nanyangtu/LLVisionQA-QBench"><strong>Data (LLVisionQA)</strong></a> |
- <a href="https://huggingface.co/datasets/nanyangtu/LLVisionQA-QBench"><strong>Data (LLDescribe)</strong></a> |
+ <a href="https://huggingface.co/datasets/nanyangtu/LLDescribe-QBench"><strong>Data (LLDescribe)</strong></a> |
 <a href="https://vqassessment.github.io/Q-Bench/zh"><strong>中文</strong></a>
 
     

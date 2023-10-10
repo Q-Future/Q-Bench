@@ -9,12 +9,12 @@ Specifically, for methods to improve their low-level ability, we split the datas
 
 ![](llvisionqa_release.png)
 
-The respective images are in the `images.tar` under the huggingface [repository](https://huggingface.co/datasets/nanyangtu/LLDescribe), as well as the json files for `dev` and `test` subsets.
+The respective images are in the `images.tar` under the huggingface [repository](https://huggingface.co/datasets/nanyangtu/LLVisionQA-QBench), as well as the json files for `dev` and `test` subsets.
 
 
 ## A2: LLDescribe (Description)
 
-Only images are released in `images.tar`. Please refer [here](https://huggingface.co/datasets/nanyangtu/LLDescribe) to download them.
+Only images are released in `images.tar`. Please refer [here](https://huggingface.co/datasets/nanyangtu/LLDescribe-QBench) to download them.
 
 
 ## Contact
