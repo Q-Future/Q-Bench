@@ -7,7 +7,7 @@ _Join the competition for low-level vision now!_
 </div>
     
 <div>
-_Timeliness_: Updated on 11st Oct.   
+_version_: v0.1.1012wip; _Timeliness_: Updated on 12nd Oct.   
 </div>
     
 </div>
@@ -126,20 +126,6 @@ Abbreviations for dimensions: *comp: completeness, prec: precision, rele: releva
 
 The datasets can be found [here](../a3_iqa_databases/).
 
-| **Model Name**| SPAQ| KoNIQ-10k| LIVE-FB| LIVE-itw| CGIQA-6K| AGIQA-3K| KADID-10K| average| 
-| -| -| -| -| -| -| -| -| -| 
-|clip_vit_l14 | 0.385/0.389 | **0.468/0.505** (rank 1) | 0.218/0.237 | 0.307/0.308 | 0.285/0.290 | 0.436/0.458 | 0.376/0.388| 0.354/0.368|
-|idefics | 0.474/0.484 | 0.375/0.400 | 0.235/0.240 | 0.409/0.428 | 0.199/0.229 | 0.562/0.622 | 0.370/0.373| 0.375/0.397|
-|instructblip_t5 | 0.582/0.599 | 0.334/0.362 | 0.248/0.267 | 0.113/0.113 | 0.167/0.188 | 0.378/0.400 | 0.181/0.166| 0.286/0.299|
-|instructblip_vicuna | 0.683/0.689 | 0.359/0.437 | 0.200/0.283 | 0.253/0.367 | 0.263/0.304 | 0.629/0.663 | 0.337/0.382| 0.389/0.446|
-|kosmos_2 | **0.644/0.641** (rank 1) | 0.255/0.281 | 0.196/0.195 | 0.358/0.368 | 0.210/0.225 | 0.489/0.491 | 0.359/0.365| 0.359/0.367|
-|llama_adapter_v2 | 0.464/0.506 | 0.354/0.363 | 0.275/0.329 | 0.298/0.360 | 0.257/0.271 | 0.604/0.666 | 0.412/0.425| 0.381/0.417|
-|llava_v1.5 | 0.563/0.584 | 0.448/0.460 | **0.310/0.339** (rank 1) | **0.445/0.481** (rank 1) | **0.285/0.297** (rank 1) | **0.664/0.754** (rank 1) | 0.390/0.400| **0.444/0.473** (rank 1)|
-|llava_v1 | 0.442/0.462 | 0.462/0.457 | 0.264/0.280 | 0.404/0.417 | 0.208/0.237 | 0.626/0.684 | 0.349/0.372| 0.394/0.416|
-|minigpt4_13b | 0.238/0.253 | 0.239/0.257 | 0.170/0.183 | 0.339/0.340 | 0.252/0.246 | 0.572/0.591 | 0.239/0.233| 0.293/0.300|
-|mplug_owl | 0.634/0.644 | 0.409/0.427 | 0.241/0.271 | 0.437/0.487 | 0.148/0.180 | 0.687/0.711 | **0.466/0.486** (rank 1) | 0.432/0.458|
-|otter_v1 | 0.436/0.441 | 0.406/0.406 | 0.143/0.142 | -0.008/0.018 | 0.254/0.264 | 0.475/0.481 | 0.557/0.577| 0.323/0.333|
-|shikra | 0.327/0.337 | 0.314/0.307 | 0.222/0.227 | 0.322/0.336 | 0.198/0.201 | 0.640/0.661 | 0.324/0.332| 0.335/0.343|
 
 | **Model Name**| SPAQ| KoNIQ-10k| LIVE-FB| LIVE-itw| CGIQA-6K| AGIQA-3K| KADID-10K| average| 
 | -| -| -| -| -| -| -| -| -| 
@@ -157,11 +143,10 @@ The datasets can be found [here](../a3_iqa_databases/).
 |qwen-vl | 0.676/0.669 | **0.470/0.546** (rank 1) | 0.298/0.338 | **0.504/0.532** (rank 1) | 0.273/0.284 | 0.617/0.686 | **0.486/0.486** (rank 1) | **0.475/0.506** (rank 1) |
 |shikra | 0.327/0.337 | 0.314/0.307 | 0.222/0.227 | 0.322/0.336 | 0.198/0.201 | 0.640/0.661 | 0.324/0.332| 0.335/0.343|
 
-Overall, `qwen-vl` has the best IQA performance among the models. (12st Oct); LLaVA-V1.5 (2nd rank overall) tops on AIGC/CGI images.
+Overall, `qwen-vl` has the best IQA performance among the models. (12st Oct); meanwhile, `llava-v1.5` (2nd rank overall) tops on AIGC/CGI images.
 
 
 Moreover, we release the results of these models (as well as the post-evaluation code) in [IQA_results](iqa_results/) for reference.
-
 
 
 ## Contact
