@@ -1,4 +1,4 @@
-# Leaderboards
+# Hot Leaderboards @ Oct 14
 
 <div align="center">
     
@@ -7,18 +7,18 @@ _Join the competition for low-level vision now!_
 </div>
     
 <div>
-_version_: v0.1.1012wip; _Timeliness_: Updated on 12nd Oct.   
+_version_: v0.1.1013wip; _Timeliness_: Updated on 13rd Oct.   
 </div>
     
 </div>
 
 ## Leaderboards for (A1): Perception
 
-*New! Result of LLaVA-v1.5/Qwen-VL-Chat is out!*
 
 About the partition of `dev` and `test` subsets, please see [our dataset release notes](../data_release/). As some models excel on original testing pipeline while some others perform better under PPL-based testing, we maintain two leaderboards for two different testing methods. See [examples](../example_code_for_idefics) for their different settings.
 
 ### Original Testing Pipeline
+- 13 models tested
 - via Multi-Choice Questions
 
 #### Accuracies on Open-set (`dev`)
@@ -37,7 +37,7 @@ About the partition of `dev` and `test` subsets, please see [our dataset release
 | otter_v1 | 0.5709 | 0.4071 | 0.3955 | 0.4222 | 0.4931 | 0.4408 | 0.5265 | 0.4635 |
 | qwen_vl | 0.6309 | 0.5819 | 0.5639 | 0.5058 | 0.6273 | 0.5789 | 0.7388 | 0.5940 |
 | shikra | 0.6564 | 0.4735 | 0.4909 | 0.4883 | 0.5949 | 0.5000 | 0.6408 | 0.5465 |
-
+| visualglm | 0.6018 | 0.5420 | 0.4625 | 0.5175 | 0.5440 | 0.5362 | 0.5714 | 0.5378 |
 
 
 
@@ -57,11 +57,14 @@ About the partition of `dev` and `test` subsets, please see [our dataset release
 | otter_v1 | 0.5766 | 0.3970 | 0.4259 | 0.4212 | 0.4893 | 0.4760 | 0.5417 | 0.4722 |
 | qwen_vl | 0.6533 | 0.6074 | 0.5844 | 0.5413 | 0.6635 | 0.5822 | 0.7300 | 0.6167 |
 | shikra | 0.6909 | 0.4793 | 0.4671 | 0.4731 | 0.6086 | 0.5308 | 0.6477 | 0.5532 |
+| visualglm | 0.6131 | 0.5358 | 0.4403 | 0.4856 | 0.5489 | 0.5548 | 0.5779 | 0.5331 |
+
 
 ### (*Additional*) PPL-based Testing Pipeline 
 
+- 11 models tested
 - via Losses of Different Answers
-- *non-finalized in progress version, may update*
+- *non-finalized work-in-progress version, may update*
 
 *No options are provided in prompts!*
 
@@ -99,7 +102,6 @@ shikra | 0.6515 | 0.4729 | 0.5021 | 0.4269 | 0.6205 | 0.5034 | 0.7197 | 0.5478 |
 
 ## Leaderboards for (A2): Description
 
-*New! Result of LLaVA-v1.5/Qwen-VL-Chat is out!*
 
 Abbreviations for dimensions: *comp: completeness, prec: precision, rele: relevance*
 
@@ -117,14 +119,14 @@ Abbreviations for dimensions: *comp: completeness, prec: precision, rele: releva
 | otter_v1 | 22.38% | 59.36% | 18.25% | 0.96/2.00 |  40.68% | 35.99% | 23.33% | 0.83/2.00 |  1.95% | 13.20% | 84.85% | 1.83/2.00 |  3.61/6.00 |
 | qwen_vl | 26.34% | 49.13% | 24.53% | 0.98/2.00 |  50.62% | 23.44% | 25.94% | 0.75/2.00 |  0.73% | 35.56% | 63.72% | 1.63/2.00 |  3.36/6.00 |
 | shikra | 21.14% | 68.33% | 10.52% | 0.89/2.00 |  30.33% | 28.30% | 41.37% | 1.11/2.00 |  1.14% | 64.36% | 34.50% | 1.33/2.00 |  3.34/6.00 |
-
+| visualglm | 30.75% | 56.64% | 12.61% | 0.82/2.00 |  38.64% | 26.18% | 35.18% | 0.97/2.00 |  6.14% | 67.15% | 26.71% | 1.21/2.00 |  2.99/6.00 |
 
 
 ## Leaderboards for (A3): Assessment
 
-*New! Result of LLaVA-v1.5/QWen-VL-Chat is out!*
-
 The datasets can be found [here](../a3_iqa_databases/).
+
+See [IQA_outputs/eval.ipynb](IQA_outputs/eval.ipynb) for our ablation experiments.
 
 
 | **Model Name**| SPAQ| KoNIQ-10k| LIVE-FB| LIVE-itw| CGIQA-6K| AGIQA-3K| KADID-10K| average| 
@@ -142,6 +144,7 @@ The datasets can be found [here](../a3_iqa_databases/).
 |otter_v1 | 0.436/0.441 | 0.406/0.406 | 0.143/0.142 | -0.008/0.018 | 0.254/0.264 | 0.475/0.481 | 0.557/0.577| 0.323/0.333|
 |qwen-vl | 0.676/0.669 | **0.470/0.546** (rank 1) | 0.298/0.338 | **0.504/0.532** (rank 1) | 0.273/0.284 | 0.617/0.686 | **0.486/0.486** (rank 1) | **0.475/0.506** (rank 1) |
 |shikra | 0.327/0.337 | 0.314/0.307 | 0.222/0.227 | 0.322/0.336 | 0.198/0.201 | 0.640/0.661 | 0.324/0.332| 0.335/0.343|
+|visualglm | 0.498/0.507 | 0.247/0.234 | 0.146/0.154 | 0.110/0.116 | 0.209/0.183 | 0.342/0.349 | 0.127/0.131| 0.240/0.239|
 
 Overall, `qwen-vl` has the best IQA performance among the models. (12st Oct); meanwhile, `llava-v1.5` (2nd rank overall) tops on AIGC/CGI images.
 
