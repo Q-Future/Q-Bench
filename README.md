@@ -73,7 +73,10 @@ The proposed Q-Bench includes three realms for low-level vision: perception (A1)
 
 ### Option 1: Submit Results
 
+**New on Oct. 15! For people with bad connection to huggingface, we have also provided a GitHub-release version of all datasets. Please see our [release](https://github.com/VQAssessment/Q-Bench/releases/tag/v1.0.1.1014datarelease).**
+
 **Important! We have released the datasets for these two tasks, for everyone to test on local machines and directly submit results. Please refer to the [data release notes](/data_release) and [example code](/example_code_for_idefics) to smoothly test these data.**
+
 
 
 **Please email `haoning001@e.ntu.edu.sg` to submit your result in json format.**
