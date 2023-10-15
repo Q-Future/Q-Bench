@@ -73,9 +73,11 @@ The proposed Q-Bench includes three realms for low-level vision: perception (A1)
 
 ## GPT-4V!
 
-![](gpt-4v-vs-human.png)
+  <div style="width: 55%; text-align: center; margin:auto;">
+      <img style="width:55%" src="gpt-4v-vs-human.png">
+  </div>
 
-Our latest experiment suggests that [GPT-4V](https://chat.openai.com) is primarily human-level on general low-level perception, marking a new era for low-level visual perception and understanding.
+Our latest experiment suggests that [GPT-4V](https://chat.openai.com) is primarily ***human-level*** on general low-level perception, marking a new era for low-level visual perception and understanding!
 
 Here is the comparison of [GPT-4V](https://chat.openai.com) and non-expert human on `test` set of Task A1 (Perception).
 
