@@ -69,11 +69,28 @@ The proposed Q-Bench includes three realms for low-level vision: perception (A1)
 - We are open to **submission-based evaluation** for the two tasks. The details for submission is as follows.
 - For assessment (A3), as we use **public datasets**, we provide an abstract evaluation code for arbitrary MLLMs for anyone to test.
 
+
+
+## GPT-4V!
+
+![](gpt-4v-vs-human.png)
+
+Our latest experiment suggests that [GPT-4V](https://chat.openai.com) is primarily human-level on general low-level perception, marking a new era for low-level visual perception and understanding.
+
+Here is the comparison of [GPT-4V](https://chat.openai.com) and non-expert human on `test` set of Task A1 (Perception).
+
+|**Participant Name** | yes-or-no | what | how | distortion | others | in-context distortion | in-context others | overall |
+| - | - | - | - | - | - | -| - | -| 
+| GPT-4V | 0.7792 | 0.7918 | **0.6268** | 0.7058 | **0.7303** | 0.7466 | **0.7795** | **0.7336** (+0.1142 to best open-source)  |
+| human-1 | **0.8248** | **0.7939** | 0.6029 | **0.7562** | 0.7208 | **0.7637** | 0.7300 | **0.7431** (+0.0095 to GPT-4V)  |
+
+We sincerely hope that one day **open-source models** can also get that level and we believe that it is coming soon. Try to challenge and beat it!
+
 ## Submission Guideline for A1/A2
 
 ### Option 1: Submit Results
 
-**New on Oct. 15! For people with bad connection to huggingface, we have also provided a GitHub-release version of all datasets. Please see our [release](https://github.com/VQAssessment/Q-Bench/releases/tag/v1.0.1.1014datarelease).**
+**New on Oct. 15! For people with bad connection to huggingface, we have also provided a GitHub-release version of all datasets. Please see our [release](https://github.com/VQAssessment/Q-Bench/releases/tag/v1.0.1.1014datarelease) as an alternative data source.**
 
 **Important! We have released the datasets for these two tasks, for everyone to test on local machines and directly submit results. Please refer to the [data release notes](/data_release) and [example code](/example_code_for_idefics) to smoothly test these data.**
 
