@@ -85,8 +85,9 @@ Here is the comparison of [GPT-4V](https://chat.openai.com) and non-expert human
 | - | - | - | - | - | - | -| - | -| 
 | GPT-4V | 0.7792 | 0.7918 | 0.6268 | 0.7058 | 0.7303 | 0.7466 | 0.7795 | 0.7336 (+0.1142 to best open-source)  |
 | human-1 | 0.8248 | 0.7939 | 0.6029 | 0.7562 | 0.7208 | 0.7637 | 0.7300 | 0.7431 (+0.0095 to GPT-4V)  |
-| human-Senior | **0.8431** | **0.8894** | **0.7202** | **0.7965** | **0.7947** | **0.8390** | **0.8707** | **0.8174** (+0.0838 to GPT-4V)  |
+| human-senior | **0.8431** | **0.8894** | **0.7202** | **0.7965** | **0.7947** | **0.8390** | **0.8707** | **0.8174** (+0.0838 to GPT-4V)  |
 
+Human-1 is an ordinary person with no training while human-senior is a trained ordinary person but still not expert.
 We sincerely hope that one day **open-source models** can also get that level and we believe that it is coming soon. Try to challenge and beat it!
 
 ## Submission Guideline for A1/A2
