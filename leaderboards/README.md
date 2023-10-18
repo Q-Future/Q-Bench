@@ -14,17 +14,9 @@ _version_: v1.0.1.1015wip; _Timeliness_: Updated on 15th Oct.
 
 ## Overall Leaderboards
 
-<div>
 - [Assignment 1: Perception 🥇 llava_v1.5](#leaderboards-for-a1-perception)
-</div>
-
-<div>
 - [Assignment 2: Description 🥇 kosmos_2](#leaderboards-for-a2-description)
-</div>
-
-<div>
 - [Assignment 3: Assessment 🥇 internlm_xcomposer_vl](#leaderboards-for-a3-assessment)
-</div>
 
 ## Leaderboards for (A1): Perception
 
