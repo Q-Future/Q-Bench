@@ -16,11 +16,11 @@ _version_: v1.0.1.1015wip; _Timeliness_: Updated on 15th Oct.
 
 <div align="center">
 
-| Rank | [Assignment 1: Perception](#leaderboards-for-a1-perception) | [Assignment 2: Description](#leaderboards-for-a2-description) | [Assignment 3: Assessment](#leaderboards-for-a3-assessment) |
-|:----:|:-----------------------------------------------------------:|:-------------------------------------------------------------:|:----------------------------------------------------------:|
-| 🥇   | llava_v1.5 (0.6314)                                         | kosmos_2 (4.03/6)                                             | internlm_xcomposer_vl (0.542/0.581)                         |
-| 🥈   | instructblip_t5 (0.6147)                                    | mplug_owl (4.03/6)                                            | qwen-vl (0.475/0.506)                                       |
-| 🥉   | llama_adapter_v2 (0.5946)                                   | llava_v1 (3.76/6)                                             | llava_v1.5 (0.444/0.473)                                    |
+| Rank | [Assignment 1: Perception](#leaderboards-for-a1-perception) (test) | [Assignment 2: Description](#leaderboards-for-a2-description) | [Assignment 3: Assessment](#leaderboards-for-a3-assessment) |
+|:----:|:-------------------------------------------------------------------:|:-------------------------------------------------------------:|:----------------------------------------------------------:|
+| 🥇   | instructblip_t5 (0.6194)                                         | kosmos_2 (4.03/6)                                             | internlm_xcomposer_vl (0.542/0.581)                         |
+| 🥈   | llava_v1.5 (0.6181)                                    | mplug_owl (3.94/6)                                            | qwen-vl (0.475/0.506)                                       |
+| 🥉   | qwen-vl (0.6167)                                   | llava_v1 (3.76/6)                                             | llava_v1.5 (0.444/0.473)                                    |
 
 </div>
 
