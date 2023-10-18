@@ -16,7 +16,7 @@ _version_: v1.0.1.1015wip; _Timeliness_: Updated on 15th Oct.
 
 <div align="center">
 
-| Rank | [Assignment 1: Perception](#leaderboards-for-a1-perception) (test) | [Assignment 2: Description](#leaderboards-for-a2-description) | [Assignment 3: Assessment](#leaderboards-for-a3-assessment) |
+| Rank | [A1: Perception](#leaderboards-for-a1-perception) (test) | [A2: Description](#leaderboards-for-a2-description) | [A3: Assessment](#leaderboards-for-a3-assessment) |
 |:----:|:-------------------------------------------------------------------:|:-------------------------------------------------------------:|:----------------------------------------------------------:|
 | 🥇   | instructblip_t5 (0.6194)                                         | kosmos_2 (4.03/6)                                             | internlm_xcomposer_vl (0.542/0.581)                         |
 | 🥈   | llava_v1.5 (0.6181)                                    | mplug_owl (3.94/6)                                            | qwen-vl (0.475/0.506)                                       |
