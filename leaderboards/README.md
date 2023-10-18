@@ -14,10 +14,17 @@ _version_: v1.0.1.1015wip; _Timeliness_: Updated on 15th Oct.
 
 ## Overall Leaderboards
 
-Assignment 1: Perception :trophy:
-Assignment 2: Description :trophy:
-Assignment 3: Assessment :trophy:
+<div>
+Assignment 1: Perception :trophy: llava_v1.5 :trophy:
+</div>
 
+<div>
+Assignment 2: Description :trophy: kosmos_2 :trophy:
+</div>
+
+<div>
+Assignment 3: Assessment :trophy: internlm_xcomposer_vl :trophy:
+</div>
 
 ## Leaderboards for (A1): Perception
 
