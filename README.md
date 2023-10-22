@@ -32,19 +32,19 @@ _How do multi-modaility LLMs perform on low-level computer vision?_
     
 
 <a href="https://arxiv.org/abs/2309.14181"><strong>Paper</strong></a> |
-<a href="https://vqassessment.github.io/Q-Bench"><strong>Project Page</strong></a> |
-<a href="https://github.com/VQAssessment/Q-Bench"><strong>Github</strong></a> |
+<a href="https://q-future.github.io/Q-Bench"><strong>Project Page</strong></a> |
+<a href="https://github.com/Q-Future/Q-Bench"><strong>Github</strong></a> |
  <a href="https://huggingface.co/datasets/nanyangtu/LLVisionQA-QBench"><strong>Data (LLVisionQA)</strong></a> |
  <a href="https://huggingface.co/datasets/nanyangtu/LLDescribe-QBench"><strong>Data (LLDescribe)</strong></a> |
-<a href="https://vqassessment.github.io/Chinese-Q-Bench"><strong>质衡 (Chinese-Q-Bench)</strong></a>
+<a href="https://q-future.github.io/Chinese-Q-Bench"><strong>质衡 (Chinese-Q-Bench)</strong></a>
 
     
  <div>
 
-<a href="https://github.com/VQAssessment/"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvqassessment%2FQ-Bench&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/Q-Future/"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvqassessment%2FQ-Bench&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
     
     
-<a href="https://github.com/VQAssessment/Q-Bench"><img src="https://img.shields.io/github/stars/VQAssessment/Q-Bench"/></a>
+<a href="https://github.com/Q-Future/Q-Bench"><img src="https://img.shields.io/github/stars/Q-Future/Q-Bench"/></a>
     
    </div>
 
@@ -95,7 +95,7 @@ We sincerely hope that one day **open-source models** can also get that level (o
 
 ### Option 1: Submit Results
 
-**New on Oct. 15! For people with bad connection to huggingface, we have also provided a GitHub-release version of all datasets. Please see our [release](https://github.com/VQAssessment/Q-Bench/releases/tag/v1.0.1.1014datarelease) as an alternative data source.**
+**New on Oct. 15! For people with bad connection to huggingface, we have also provided a GitHub-release version of all datasets. Please see our [release](https://github.com/Q-Future/Q-Bench/releases/tag/v1.0.1.1014datarelease) as an alternative data source.**
 
 **Important! We have released the datasets for these two tasks, for everyone to test on local machines and directly submit results. Please refer to the [data release notes](/data_release) and [example code](/example_code_for_idefics) to smoothly test these data.**
 
