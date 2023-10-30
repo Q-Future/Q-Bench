@@ -1,4 +1,4 @@
-# Hot Leaderboards @ Oct 14
+# Hot Leaderboards @ Oct 30
 
 <div align="center">
     
@@ -7,7 +7,7 @@ _Join the competition for low-level vision now!_
 </div>
     
 <div>
-_version_: v1.0.1.1015wip; _Timeliness_: Updated on 30th Oct.   
+_version_: v1.0.2.1030wip; _Timeliness_: Updated on 30th Oct.   
 </div>
     
 </div>
@@ -16,11 +16,11 @@ _version_: v1.0.1.1015wip; _Timeliness_: Updated on 30th Oct.
 
 <div align="center">
 
-| Rank | [A1: Perception](#leaderboards-for-a1-perception) (test) | [A2: Description](#leaderboards-for-a2-description) | [A3: Assessment](#leaderboards-for-a3-assessment) |
-|:----:|:-------------------------------------------------------------------:|:-------------------------------------------------------------:|:----------------------------------------------------------:|
-| 🥇   | instructblip_t5 (0.6194)                                         | kosmos_2 (4.03/6)                                             | internlm_xcomposer_vl (0.542/0.581)                         |
-| 🥈   | llava_v1.5 (0.6181)                                    | mplug_owl (3.94/6)                                            | qwen-vl (0.475/0.506)                                       |
-| 🥉   | qwen-vl (0.6167)                                   | llava_v1 (3.76/6)                                             | llava_v1.5 (0.444/0.473)                                    |
+| Rank | [A1: Perception](#leaderboards-for-a1-perception) (dev set) | [A1: Perception](#leaderboards-for-a1-perception) (test set) | [A2: Description](#leaderboards-for-a2-description) | [A3: Assessment](#leaderboards-for-a3-assessment) |
+|:----:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------:|:----------------------------------------------------------:|
+| 🥇   | InternLM-XComposer (0.6535) | InternLM-XComposer (0.6435)                                         |      InternLM-XComposer (4.21/6)                                             | InternLM-XComposer (0.542,0.581)                         |
+| 🥈   | LLaVA-v1.5-13B (0.6214) | InstructBLIP-T5-XL (0.6194)                                     |  Kosmos-2 (4.03/6)                                        | Qwen-VL (0.475,0.506)                                       |
+| 🥉   | InstructBLIP-T5-XL (0.6147) |  Qwen-VL (0.6167)                             | mPLUG-Owl (3.94/6)                                        | LLaVA-v1.5-13B (0.444,0.473)                                    |
 
 </div>
 
