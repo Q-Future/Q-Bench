@@ -95,10 +95,17 @@ We sincerely hope that one day **open-source models** can also get that level (o
 
 ### Option 1: Submit Results
 
-**New on Oct. 15! For people with bad connection to huggingface, we have also provided a GitHub-release version of all datasets. Please see our [release](https://github.com/Q-Future/Q-Bench/releases/tag/v1.0.1.1014datarelease) as an alternative data source.**
+#### Step 1: Download Images
 
-**Important! We have released the datasets for these two tasks, for everyone to test on local machines and directly submit results. Please refer to the [data release notes](/data_release) and [example code](/example_code_for_idefics) to smoothly test these data.**
+We now provide two ways to download the datasets (LLVisionQA\&LLDescribe)
 
+- via GitHub Release: Please see our [release](https://github.com/Q-Future/Q-Bench/releases/tag/v1.0.1.1014datarelease) for details.
+
+- via Huggingface Datasets: Please refer to the [data release notes](/data_release) to download the images.
+
+#### Step 2: Test with Your Model
+
+It is highly recommended to convert your model into Huggingface format to smoothly test these data. See the [example scripts for Huggingface's IDEFICS-9B-Instruct](/example_code_for_idefics) as an example, and modify them for your custom model to test on your model.
 
 
 **Please email `haoning001@e.ntu.edu.sg` to submit your result in json format.**
@@ -106,34 +113,7 @@ We sincerely hope that one day **open-source models** can also get that level (o
 
 ### Option 2: Submit Model
 
-Otherwise, you can consider submitting your model to Q-Bench (A1/A2), you can prepare a huggingface/GitHub repo (with some README for us to run it) of your MLLM with an implementation of the following single ability:
-
-- Generate text outputs based on multi-modality inputs (`image + text`).
-
-Specifically, it should has two important methods: `embed_image_and_text` (to allow multi-modality inputs), and `generate` (for dialog).
-
-We recommend to wrap up the function call to your MLLM in the following format:
-
-```python
-from PIL import Image
-from my_mllm_model import Model, Tokenizer, embed_image_and_text # [REPLACE with YOUR MLLM here]
-
-model, tokenizer = Model(), Tokenizer()
-
-prompt = '[ANY_PROMPT]'
-
-image = Image.open("image_for_query.jpg")
-input_embeds = embed_image_and_text(image, prompt) #
-generated_texts = tokenizer.batch_decode(model.generate(input_embeds=input_embeds))[0]
-```
-
-*Optional: You will also need to implement the generative loss for your model if you would like to test with close-set inference (PPL-based) for perception task (A1), as follows:*
-
-```python
-loss = model(input_embeds=input_embeds, labels=input_ids).loss.item()
-```
-
-We further provide a demo implementation of IDEFICS, huggingface's open-source MLLM, for most simple question-answering (A1) and description (A2). See [example](example_code_for_idefics/README.md) on how to run the demo and provide a similar one for submission-based evaluation.
+You can also submit your model (could be Huggingface AutoModel or ModelScope AutoModel) to us, alongside your custom evaluation scripts. Your custom scripts can be modified from the [template scripts](https://github.com/haotian-liu/LLaVA/blob/main/llava/eval/model_vqa_qbench.py) that works for LLaVA-v1.5 (for A1/A2), and [here](example_code_for_idefics/a3_assessment_all.py) (for image quality assessment).
 
 **Please email `haoning001@e.ntu.edu.sg` to submit your model if you are _outside_ China Mainland.**
 **Please email `zzc1998@sjtu.edu.cn` to submit your model if you are _inside_ China Mainland.**
