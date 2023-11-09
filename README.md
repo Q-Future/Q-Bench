@@ -1,5 +1,14 @@
 <div align="center">
     
+    
+ <div>
+
+<a href="https://github.com/Q-Future/"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvqassessment%2FQ-Bench&count_bg=%23E97EBA&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"/></a>
+    <a href="https://github.com/Q-Future/Q-Bench"><img src="https://img.shields.io/github/stars/Q-Future/Q-Bench"/></a>
+    <a href="https://arxiv.org/abs/2309.14181"><img src="https://img.shields.io/badge/Arxiv-2309:14181-red"/></a>
+    <a href="https://github.com/Q-Future/Q-Bench/releases/tag/v1.0.1.1014datarelease"><img src="https://img.shields.io/badge/Data-Release-green"></a>
+    <a href="https://github.com/Q-Future/Q-Instruct"><img src="https://img.shields.io/badge/Awesome-QInstruct-orange"/></a>
+   </div>
 
 
   <h1>Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision</h1>
@@ -38,15 +47,6 @@ _How do multi-modaility LLMs perform on low-level computer vision?_
  <a href="https://huggingface.co/datasets/nanyangtu/LLDescribe-QBench"><strong>Data (LLDescribe)</strong></a> |
 <a href="https://q-future.github.io/Chinese-Q-Bench"><strong>质衡 (Chinese-Q-Bench)</strong></a>
 
-    
- <div>
-
-<a href="https://github.com/Q-Future/"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvqassessment%2FQ-Bench&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
-    
-    
-<a href="https://github.com/Q-Future/Q-Bench"><img src="https://img.shields.io/github/stars/Q-Future/Q-Bench"/></a>
-    
-   </div>
 
     
     
