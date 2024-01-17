@@ -39,7 +39,9 @@ _How do multi-modaility LLMs perform on low-level computer vision?_
 <sup>*</sup>Equal contribution. <sup>#</sup>Corresponding author. 
    </div>
     
-
+<div>
+We are accepted as an ICLR2024 Spotlight. See you in Vienna!
+   </div>
 <a href="https://arxiv.org/abs/2309.14181"><strong>Paper</strong></a> |
 <a href="https://q-future.github.io/Q-Bench"><strong>Project Page</strong></a> |
 <a href="https://github.com/Q-Future/Q-Bench"><strong>Github</strong></a> |
@@ -69,27 +71,27 @@ The proposed Q-Bench includes three realms for low-level vision: perception (A1)
 - We are open to **submission-based evaluation** for the two tasks. The details for submission is as follows.
 - For assessment (A3), as we use **public datasets**, we provide an abstract evaluation code for arbitrary MLLMs for anyone to test.
 
-
-
-## GPT-4V!
+## Close-source MLLMs (GPT-4V-Turbo, Gemini, GPT-4V)
 
   <div style="width: 55%; text-align: center; margin:auto;">
       <img style="width:55%" src="gpt-4v-vs-human.png">
   </div>
 
-Our latest experiment suggests that [GPT-4V](https://chat.openai.com) is primarily entry ***human-level*** on general low-level perception, marking a new era for low-level visual perception and understanding!
+We test on two close-source API models, GPT-4V-Turbo (`gpt-4-vision-preview`, replacing the no-longer-available *old version* GPT-4V results) and Gemini Pro (`gemini-pro-vision`). 
+Slightly improved compared with the older version, GPT-4V still tops among all MLLMs and almost a junior-level human's performance. Gemini Pro follows closely behind.
 
-Here is the comparison of [GPT-4V](https://chat.openai.com) and non-expert human on `test` set of Task A1 (Perception).
 
 |**Participant Name** | yes-or-no | what | how | distortion | others | in-context distortion | in-context others | overall |
-| - | - | - | - | - | - | -| - | -| 
-| GPT-4V | 0.7792 | 0.7918 | 0.6268 | 0.7058 | 0.7303 | 0.7466 | 0.7795 | 0.7336 (+0.1142 to best open-source)  |
-| human-1 | 0.8248 | 0.7939 | 0.6029 | 0.7562 | 0.7208 | 0.7637 | 0.7300 | 0.7431 (+0.0095 to GPT-4V)  |
-| human-2-senior | **0.8431** | **0.8894** | **0.7202** | **0.7965** | **0.7947** | **0.8390** | **0.8707** | **0.8174** (+0.0838 to GPT-4V)  |
+| - | - | - | - | - | - | -| - | - | 
+| Gemini-Pro (`gpt-4-vision-preview`) | 0.7221 |  0.7300 |0.6645 | 0.6530 | 0.7291 | 0.7082 | 0.7665 | 0.7058 |
+| GPT-4V-Turbo (`gpt-4-vision-preview`) |0.7722 | 0.7839 | 0.6645 |0.7101 | 0.7107 | 0.7936 | 0.7891  | 0.7410 |
+| GPT-4V (*old version*) | 0.7792 | 0.7918 | 0.6268 | 0.7058 | 0.7303 | 0.7466 | 0.7795 | 0.7336   |
+| human-1-junior | 0.8248 | 0.7939 | 0.6029 | 0.7562 | 0.7208 | 0.7637 | 0.7300 | 0.7431   |
+| human-2-senior | **0.8431** | **0.8894** | **0.7202** | **0.7965** | **0.7947** | **0.8390** | **0.8707** | **0.8174**  |
 
-Human-1 is an ordinary person with no training while human-2-senior is a trained ordinary person but still not expert. GPT-4V is witnessed to be on par with human-1, but still room to go to surpass human-2-expert.
+We have also evaluated several new open-source models recently, and will release their results soon.
 
-We sincerely hope that one day **open-source models** can also get that level (or even better) and we believe that it is coming soon. Try to challenge and beat it!
+
 
 ## Submission Guideline for A1/A2
 
