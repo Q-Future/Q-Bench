@@ -83,7 +83,7 @@ Slightly improved compared with the older version, GPT-4V still tops among all M
 
 |**Participant Name** | yes-or-no | what | how | distortion | others | in-context distortion | in-context others | overall |
 | - | - | - | - | - | - | -| - | - | 
-| Gemini-Pro (`gpt-4-vision-preview`) | 0.7221 |  0.7300 |0.6645 | 0.6530 | 0.7291 | 0.7082 | 0.7665 | 0.7058 |
+| Gemini-Pro (`gemini-pro-vision`) | 0.7221 |  0.7300 |0.6645 | 0.6530 | 0.7291 | 0.7082 | 0.7665 | 0.7058 |
 | GPT-4V-Turbo (`gpt-4-vision-preview`) |0.7722 | 0.7839 | 0.6645 |0.7101 | 0.7107 | 0.7936 | 0.7891  | 0.7410 |
 | GPT-4V (*old version*) | 0.7792 | 0.7918 | 0.6268 | 0.7058 | 0.7303 | 0.7466 | 0.7795 | 0.7336   |
 | human-1-junior | 0.8248 | 0.7939 | 0.6029 | 0.7562 | 0.7208 | 0.7637 | 0.7300 | 0.7431   |
