@@ -197,9 +197,10 @@ Please contact any of the first authors of this paper for queries.
 If you find our work interesting, please feel free to cite our paper:
 
 ```bibtex
-@article{wu2023qbench,
-    title={Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision},
-    author={Wu, Haoning and Zhang, Zicheng and Zhang, Erli and Chen, Chaofeng and Liao, Liang and Wang, Annan and Li, Chunyi and Sun, Wenxiu and Yan, Qiong and Zhai, Guangtao and Lin, Weisi},
-    year={2023},
+@inproceedings{wu2024qbench,
+    author = {Wu, Haoning and Zhang, Zicheng and Zhang, Erli and Chen, Chaofeng and Liao, Liang and Wang, Annan and Li, Chunyi and Sun, Wenxiu and Yan, Qiong and Zhai, Guangtao and Lin, Weisi},
+    title = {Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision},
+    booktitle = {ICLR},
+    year = {2024}
 }
 ```
