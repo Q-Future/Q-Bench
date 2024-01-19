@@ -182,7 +182,7 @@ See [IQA_outputs/eval.ipynb](IQA_outputs/eval.ipynb) for our ablation experiment
 
 Overall, `internlm_xcomposer_vl` has the best IQA performance among the models. (30th Oct) with 6 champions among 7 datasets. `qwen-vl` and `llava-v1.5` are good runner-ups. 
 
-We release the results of these models (as well as the post-evaluation code) in [IQA_results](iqa_results/) for reference.
+We release the results of these models (as well as the post-evaluation code) in [IQA_results](IQA_outputs/) for reference.
 
 
 ## Contact
