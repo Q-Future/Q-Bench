@@ -73,7 +73,7 @@ The proposed Q-Bench includes three realms for low-level vision: perception (A1)
 
 ## Release
 - [2/10] 🔥 We are releasing the extended [Q-bench+](https://github.com/Q-Future/Q-Bench/blob/master/Q_Bench%2B.pdf), which challenges MLLMs with both single images and image pairs on low-level vision. More details coming soon!
-- [1/16] 🔥 Our work "Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision" is accepted by **ICLR2024 as Spotlight Presentation**.
+- [1/16] 🔥 Our work ["Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision"](https://arxiv.org/abs/2309.14181) is accepted by **ICLR2024 as Spotlight Presentation**.
   
 ## Close-source MLLMs (GPT-4V-Turbo, Gemini, Qwen-VL-Plus, GPT-4V)
 
