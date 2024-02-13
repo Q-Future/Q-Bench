@@ -6,6 +6,7 @@
 <a href="https://github.com/Q-Future/"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvqassessment%2FQ-Bench&count_bg=%23E97EBA&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"/></a>
     <a href="https://github.com/Q-Future/Q-Bench"><img src="https://img.shields.io/github/stars/Q-Future/Q-Bench"/></a>
     <a href="https://arxiv.org/abs/2309.14181"><img src="https://img.shields.io/badge/Arxiv-2309:14181-red"/></a>
+    <a href="https://arxiv.org/abs/2402.07116"><img src="https://img.shields.io/badge/Extension-2402:07116-yellow"/></a>
     <a href="https://github.com/Q-Future/Q-Bench/releases/tag/v1.0.1.1014datarelease"><img src="https://img.shields.io/badge/Data-Release-green"></a>
     <a href="https://github.com/Q-Future/Q-Instruct"><img src="https://img.shields.io/badge/Awesome-QInstruct-orange"/></a>
    </div>
@@ -72,7 +73,7 @@ The proposed Q-Bench includes three realms for low-level vision: perception (A1)
 - For assessment (A3), as we use **public datasets**, we provide an abstract evaluation code for arbitrary MLLMs for anyone to test.
 
 ## Release
-- [2/10] 🔥 We are releasing the extended [Q-bench+](https://github.com/Q-Future/Q-Bench/blob/master/Q_Bench%2B.pdf), which challenges MLLMs with both single images and image pairs on low-level vision. The [LeaderBoard](https://huggingface.co/spaces/q-future/Q-Bench-Leaderboard) is onsite, check out the low-level vision ability for your favorite MLLMs!! More details coming soon.
+- [2/10] 🔥 We are releasing the extended [Q-bench+](https://arxiv.org/abs/2402.07116), which challenges MLLMs with both single images and **image pairs** on low-level vision. The [LeaderBoard](https://huggingface.co/spaces/q-future/Q-Bench-Leaderboard) is onsite, check out the low-level vision ability for your favorite MLLMs!! More details coming soon.
 - [1/16] 🔥 Our work ["Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision"](https://arxiv.org/abs/2309.14181) is accepted by **ICLR2024 as Spotlight Presentation**.
   
 ## Close-source MLLMs (GPT-4V-Turbo, Gemini, Qwen-VL-Plus, GPT-4V)
