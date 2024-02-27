@@ -73,6 +73,7 @@ The proposed Q-Bench includes three realms for low-level vision: perception (A1)
 - For assessment (A3), as we use **public datasets**, we provide an abstract evaluation code for arbitrary MLLMs for anyone to test.
 
 ## Release
+- [2/27] 🔥 Our work **Q-Insturct** has been accepted by CVPR 2024, try to learn the [details](https://github.com/Q-Future/Q-Instruct) about how to instruct MLLMs on low-level vision!
 - [2/23] 🔥 The low-level vision compare task part of [Q-bench+](https://arxiv.org/abs/2402.07116) is now released at [Huggingface](https://huggingface.co/datasets/q-future/q-bench2)!
 - [2/10] 🔥 We are releasing the extended [Q-bench+](https://arxiv.org/abs/2402.07116), which challenges MLLMs with both single images and **image pairs** on low-level vision. The [LeaderBoard](https://huggingface.co/spaces/q-future/Q-Bench-Leaderboard) is onsite, check out the low-level vision ability for your favorite MLLMs!! More details coming soon.
 - [1/16] 🔥 Our work ["Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision"](https://arxiv.org/abs/2309.14181) is accepted by **ICLR2024 as Spotlight Presentation**.
