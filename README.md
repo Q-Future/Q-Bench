@@ -73,6 +73,7 @@ The proposed Q-Bench includes three realms for low-level vision: perception (A1)
 - For assessment (A3), as we use **public datasets**, we provide an abstract evaluation code for arbitrary MLLMs for anyone to test.
 
 ## Release
+- [2024/6/17]🔥 The **Q-Bench**, **Q-Bench2**([Q-bench+](https://arxiv.org/abs/2402.07116)), and [**A-Bench**](https://github.com/Q-Future/A-Bench) have now joined [lmm-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), which makes it easier to test LMM !!
 - [2024/6/3] 🔥 [Github repo](https://github.com/Q-Future/A-Bench) for **A-Bench** is online. Do you want to find out if your LMM is a master at evaluating AI-generated images? Come and test on **A-Bench** !!
 - [3/1]  🔥 We are releasing **Co-instruct**, *Towards Open-ended Visual Quality Comparison* [here](https://co-instruct.github.io/). More details are coming soon.
 - [2/27] 🔥 Our work **Q-Insturct** has been accepted by CVPR 2024, try to learn the [details](https://github.com/Q-Future/Q-Instruct) about how to instruct MLLMs on low-level vision!
