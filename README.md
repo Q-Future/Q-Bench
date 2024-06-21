@@ -107,6 +107,20 @@ print(ds["dev"][0])
 from datasets import load_dataset
 
 ds = load_dataset("q-future/Q-Bench2-HF")
+
+print(ds["dev"][0])
+
+### {'id': 0,
+###  'image1': <PIL.Image.Image image mode=RGB size=4032x3024>,
+###  'image2': <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=864x1152>,
+###  'question': 'Compared to the first image, how is the clarity of the second image?',
+###  'option0': 'More blurry',
+###  'option1': 'Clearer',
+###  'option2': 'About the same',
+###  'option3': 'N/A',
+###  'question_type': 2,
+###  'question_concern': 0,
+###  'correct_choice': 'B'}
 ```
 
 ## Release
