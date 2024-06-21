@@ -41,8 +41,8 @@ _How do multi-modaility LLMs perform on low-level computer vision?_
    </div>
     
 <div>
-We are accepted as an ICLR2024 Spotlight. See you in Vienna!
-   </div>
+ICLR2024 Spotlight
+ </div>
 <a href="https://arxiv.org/abs/2309.14181"><strong>Paper</strong></a> |
 <a href="https://q-future.github.io/Q-Bench"><strong>Project Page</strong></a> |
 <a href="https://github.com/Q-Future/Q-Bench"><strong>Github</strong></a> |
@@ -72,8 +72,45 @@ The proposed Q-Bench includes three realms for low-level vision: perception (A1)
 - We are open to **submission-based evaluation** for the two tasks. The details for submission is as follows.
 - For assessment (A3), as we use **public datasets**, we provide an abstract evaluation code for arbitrary MLLMs for anyone to test.
 
+## Use with `datasets` API
+
+For the Q-Bench-A1 (with multi-choice questions), we have converted them into [HF-format datasets](https://huggingface.co/datasets/q-future/Q-Bench-HF) that can automatically be downloaded and used with `datasets` API. Please refer to the following instruction:
+
+```shell
+pip install datasets
+```
+
+### Q-Bench (single images)
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("q-future/Q-Bench-HF")
+
+print(ds["dev"][0])
+
+### {'id': 0,
+### 'image': <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=4160x3120>,
+### 'question': 'How is the lighting of this building?',
+### 'option0': 'High',
+### 'option1': 'Low',
+### 'option2': 'Medium',
+### 'option3': 'N/A',
+### 'question_type': 2,
+### 'question_concern': 3,
+### 'correct_choice': 'B'}
+```
+
+### Q-Bench2 (image pairs)
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("q-future/Q-Bench2-HF")
+```
+
 ## Release
-- [2024/6/17]🔥 The **Q-Bench**, **Q-Bench2**([Q-bench+](https://arxiv.org/abs/2402.07116)), and [**A-Bench**](https://github.com/Q-Future/A-Bench) have now joined [lmm-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), which makes it easier to test LMM !!
+- [2024/6/17]🔥 The **Q-Bench**, **Q-Bench2**([Q-bench+](https://arxiv.org/abs/2402.07116)), and [**A-Bench**](https://github.com/Q-Future/A-Bench) have now joined [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), which makes it easier to test LMM !!
 - [2024/6/3] 🔥 [Github repo](https://github.com/Q-Future/A-Bench) for **A-Bench** is online. Do you want to find out if your LMM is a master at evaluating AI-generated images? Come and test on **A-Bench** !!
 - [3/1]  🔥 We are releasing **Co-instruct**, *Towards Open-ended Visual Quality Comparison* [here](https://co-instruct.github.io/). More details are coming soon.
 - [2/27] 🔥 Our work **Q-Insturct** has been accepted by CVPR 2024, try to learn the [details](https://github.com/Q-Future/Q-Instruct) about how to instruct MLLMs on low-level vision!
