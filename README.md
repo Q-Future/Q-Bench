@@ -140,15 +140,29 @@ print(ds["dev"][0])
 
 We test on three close-source API models, GPT-4V-Turbo (`gpt-4-vision-preview`, replacing the no-longer-available *old version* GPT-4V results), Gemini Pro (`gemini-pro-vision`) and Qwen-VL-Plus (`qwen-vl-plus`). Slightly improved compared with the older version, GPT-4V still tops among all MLLMs and almost a junior-level human's performance. Gemini Pro and Qwen-VL-Plus follows behind, still better than best open-source MLLMs (0.65 overall).
 
+Update on [2024/7/18], We are glad to release the new SOTA performance of **BlueImage-GPT** (close-source).
 
+**Perception, A1-Single**
 |**Participant Name** | yes-or-no | what | how | distortion | others | in-context distortion | in-context others | overall |
 | - | - | - | - | - | - | -| - | - | 
 | Qwen-VL-Plus (`qwen-vl-plus`) | 0.7574 |  0.7325 |  0.5733|  0.6488 | 0.7324 | 0.6867 | 0.7056 | 0.6893 |
+| BlueImage-GPT (from VIVO *New Champion*) | **0.8467** | 0.8351 | **0.7469** | 0.7819 | **0.8594** | 0.7995 | 0.8240 | 0.8107 |
 | Gemini-Pro (`gemini-pro-vision`) | 0.7221 |  0.7300 |0.6645 | 0.6530 | 0.7291 | 0.7082 | 0.7665 | 0.7058 |
 | GPT-4V-Turbo (`gpt-4-vision-preview`) |0.7722 | 0.7839 | 0.6645 |0.7101 | 0.7107 | 0.7936 | 0.7891  | 0.7410 |
 | GPT-4V (*old version*) | 0.7792 | 0.7918 | 0.6268 | 0.7058 | 0.7303 | 0.7466 | 0.7795 | 0.7336   |
 | human-1-junior | 0.8248 | 0.7939 | 0.6029 | 0.7562 | 0.7208 | 0.7637 | 0.7300 | 0.7431   |
-| human-2-senior | **0.8431** | **0.8894** | **0.7202** | **0.7965** | **0.7947** | **0.8390** | **0.8707** | **0.8174**  |
+| human-2-senior | 0.8431 | **0.8894** | 0.7202 | **0.7965** | 0.7947 | **0.8390** | **0.8707** | **0.8174**  |
+
+**Perception, A2-Single**
+|**Participant Name** | yes-or-no | what | how | distortion | others | compare | joint | overall |
+| - | - | - | - | - | - | -| - | - | 
+| Qwen-VL-Plus (`qwen-vl-plus`) | 0.6685 | 0.5579 | 0.5991 | 0.6246 | 0.5877 | 0.6217 | 0.5920 | 0.6148 |
+| Qwen-VL-Max (`qwen-vl-max`) | 0.6765 | 0.6756 | 0.6535 | 0.6909 | 0.6118 | 0.6865 | 0.6129 | 0.6699 |
+| BlueImage-GPT (from VIVO *New Champion*) | **0.8843** | 0.8033 | **0.7958** | **0.8464** | 0.8062 | 0.8462 | 0.7955 | 0.8348 |
+| Gemini-Pro (`gemini-pro-vision`) | 0.6578 | 0.5661 | 0.5674 | 0.6042 | 0.6055 | 0.6046 | 0.6044 | 0.6046 |
+| GPT-4V (`gpt-4-vision`) | 0.7975 | 0.6949 | 0.8442 | 0.7732 | 0.7993 | 0.8100 | 0.6800 | 0.7807 |
+| Junior-level Human | 0.7811 | 0.7704 | 0.8233 | 0.7817 | 0.7722 | 0.8026 | 0.7639 | 0.8012 |
+| Senior-level Human | 0.8300 | **0.8481** | 0.8985 | 0.8313 | **0.9078** | **0.8655** | **0.8225** | **0.8548** |
 
 We have also evaluated several new open-source models recently, and will release their results soon.
 
