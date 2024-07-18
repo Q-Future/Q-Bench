@@ -153,7 +153,7 @@ Update on [2024/7/18], We are glad to release the new SOTA performance of **Blue
 | human-1-junior | 0.8248 | 0.7939 | 0.6029 | 0.7562 | 0.7208 | 0.7637 | 0.7300 | 0.7431   |
 | human-2-senior | 0.8431 | **0.8894** | 0.7202 | **0.7965** | 0.7947 | **0.8390** | **0.8707** | **0.8174**  |
 
-**Perception, A2-Single**
+**Perception, A1-Pair**
 |**Participant Name** | yes-or-no | what | how | distortion | others | compare | joint | overall |
 | - | - | - | - | - | - | -| - | - | 
 | Qwen-VL-Plus (`qwen-vl-plus`) | 0.6685 | 0.5579 | 0.5991 | 0.6246 | 0.5877 | 0.6217 | 0.5920 | 0.6148 |
