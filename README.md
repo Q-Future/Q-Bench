@@ -146,7 +146,7 @@ Update on [2024/7/18], We are glad to release the new SOTA performance of **Blue
 |**Participant Name** | yes-or-no | what | how | distortion | others | in-context distortion | in-context others | overall |
 | - | - | - | - | - | - | -| - | - | 
 | Qwen-VL-Plus (`qwen-vl-plus`) | 0.7574 |  0.7325 |  0.5733|  0.6488 | 0.7324 | 0.6867 | 0.7056 | 0.6893 |
-| BlueImage-GPT (from VIVO *New Champion*) | **0.8467** | 0.8351 | **0.7469** | 0.7819 | **0.8594** | 0.7995 | 0.8240 | 0.8107 |
+| BlueImage-GPT (`from VIVO` *New Champion*) | **0.8467** | 0.8351 | **0.7469** | 0.7819 | **0.8594** | 0.7995 | 0.8240 | 0.8107 |
 | Gemini-Pro (`gemini-pro-vision`) | 0.7221 |  0.7300 |0.6645 | 0.6530 | 0.7291 | 0.7082 | 0.7665 | 0.7058 |
 | GPT-4V-Turbo (`gpt-4-vision-preview`) |0.7722 | 0.7839 | 0.6645 |0.7101 | 0.7107 | 0.7936 | 0.7891  | 0.7410 |
 | GPT-4V (*old version*) | 0.7792 | 0.7918 | 0.6268 | 0.7058 | 0.7303 | 0.7466 | 0.7795 | 0.7336   |
@@ -158,7 +158,7 @@ Update on [2024/7/18], We are glad to release the new SOTA performance of **Blue
 | - | - | - | - | - | - | -| - | - | 
 | Qwen-VL-Plus (`qwen-vl-plus`) | 0.6685 | 0.5579 | 0.5991 | 0.6246 | 0.5877 | 0.6217 | 0.5920 | 0.6148 |
 | Qwen-VL-Max (`qwen-vl-max`) | 0.6765 | 0.6756 | 0.6535 | 0.6909 | 0.6118 | 0.6865 | 0.6129 | 0.6699 |
-| BlueImage-GPT (from VIVO *New Champion*) | **0.8843** | 0.8033 | **0.7958** | **0.8464** | 0.8062 | 0.8462 | 0.7955 | 0.8348 |
+| BlueImage-GPT (`from VIVO` *New Champion*) | **0.8843** | 0.8033 | **0.7958** | **0.8464** | 0.8062 | 0.8462 | 0.7955 | 0.8348 |
 | Gemini-Pro (`gemini-pro-vision`) | 0.6578 | 0.5661 | 0.5674 | 0.6042 | 0.6055 | 0.6046 | 0.6044 | 0.6046 |
 | GPT-4V (`gpt-4-vision`) | 0.7975 | 0.6949 | 0.8442 | 0.7732 | 0.7993 | 0.8100 | 0.6800 | 0.7807 |
 | Junior-level Human | 0.7811 | 0.7704 | 0.8233 | 0.7817 | 0.7722 | 0.8026 | 0.7639 | 0.8012 |
