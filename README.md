@@ -124,6 +124,7 @@ print(ds["dev"][0])
 ```
 
 ## Release
+- [2024/8/1]🔥 The **Q-Bench** is released on [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), come and test your LMM with one command like `python run.py --data Q-Bench1_VAL Q-Bench1_TEST --model InternVL2-1B --verbose'.
 - [2024/6/17]🔥 The **Q-Bench**, **Q-Bench2**([Q-bench+](https://arxiv.org/abs/2402.07116)), and [**A-Bench**](https://github.com/Q-Future/A-Bench) have now joined [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), which makes it easier to test LMM !!
 - [2024/6/3] 🔥 [Github repo](https://github.com/Q-Future/A-Bench) for **A-Bench** is online. Do you want to find out if your LMM is a master at evaluating AI-generated images? Come and test on **A-Bench** !!
 - [3/1]  🔥 We are releasing **Co-instruct**, *Towards Open-ended Visual Quality Comparison* [here](https://co-instruct.github.io/). More details are coming soon.
